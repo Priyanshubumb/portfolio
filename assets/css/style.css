@@ -2510,11 +2510,12 @@ body.loaded {
 }
 
 .preloader .preloader-heading .load-text {
-    font-size: 20px;
+    font-size: clamp(14px, 6vw, 20px);
     font-weight: 200;
-    letter-spacing: 15px;
-	color:#fff;
+    letter-spacing: clamp(4px, 2vw, 15px);
+    color: #fff;
     text-transform: uppercase;
+    white-space: nowrap;
     z-index: 20;
 }
 
